@@ -1,0 +1,25 @@
+{
+  "name": "full-stack-js-app",
+  "version": "1.0.0",
+  "description": "An example \"full stack\" JavaScript application for testing Heroku's CI pipeline.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"tests are for the weak\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebearingedge/full-stack-js-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebearingedge/full-stack-js-app/issues"
+  },
+  "homepage": "https://github.com/thebearingedge/full-stack-js-app#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
